@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar a:hover {
+    color: #ED6927 !important;
+    transition-duration: 0.3s;
+}
+
+.card {
+    border: 0.125rem solid orange;
+    transition-property: all;
+    transition: .3s ease-in-out .20s;
+}
+
+.card:hover {
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    color: white;
+    border: 0.125rem solid rgb(255, 115, 0);
+}
+
+.card a {
+    background-color: rgb(255, 154, 32);
+    transition-property: all;
+    transition: .3s ease-in-out .20s;
+}
+
+.card:hover a {
+    background-color: white;
+    cursor: pointer;
+}
+
+.card a:hover {
+    transform: scale(1.1);
+    color: black !important;
+}
+
+#locales a {
+    background-color: #BAD13E !important;
+}
+
+#locales a:hover {
+    background-color: #97A833 !important;
+}
+
+#locales h4 {
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+
+.tarjeta {
+    margin-right: 0.8125rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+i {
+    color: rgb(214, 124, 91);
+}
+
+#video ul {
+    list-style: none;
+}
+
+.btn-enviar {
+    background-color: rgb(255, 154, 32);
+}
+
+.btn-enviar:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+#logo{
+    background-image: url('img/isologo-greeneat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+    width: 170px;
+    height: 80px;
+}
+
+#banner h2{
+    font-size: 0;
+}
+
+.listado{
+    width: 300px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lime;
+    display: inline-block;
+}
+
+.tarjetita{
+    background-color: rgb(248, 165, 87);
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgb(0,0,0, 0.4);
+}
+.oculto{
+    display: none;
+}
+
+.descripcionPlan{
+    color: rgb(230, 127, 32) !important;
+}
+
